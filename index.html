@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROMEDIO</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+<body onload="calcular()">
+<div class="container text-center">
+    <h1 class="bg-danger text-white mt-2 p-2">CALIFICACIONES</h1><hr>
+<div class="card w-25 m-auto overflow-hidden mt-2">
+    <h3 class="bg-success text-white">modulo</h3>
+    <input type="range" class="form-control" id="modulo" min="5" max="10" value="7">
+    <span id="cm" class="h1">7</span>
+</div>
+<div class="card w-25 m-auto overflow-hidden mt-2">
+    <h3 class="bg-black text-white">INGLES</h3>
+    <input type="range" class="form-control" id="ingles" min="5" max="10" value="7">
+    <span id="cI" class="h1">7</span>
+</div>
+<div class="card w-25 m-auto overflow-hidden mt-2">
+    <h3 class="bg-primary text-white">fisica</h3>
+    <input type="range" class="form-control" id="fisica" min="5" max="10" value="7">
+    <span id="cf" class="h1">7</span>
+</div>
+<div class="card w-25 m-auto overflow-hidden mt-2">
+    <h3 class="bg-danger text-white">calculo</h3>
+    <input type="range" class="form-control" id="calculo" min="5" max="10" value="7">
+    <span id="cc" class="h1">7</span>
+</div>
+<div class="card w-25 m-auto overflow-hidden mt-2">
+    <h3 class="bg-success text-white">ecologia</h3>
+    <input type="range" class="form-control" id="ecologia" min="5" max="10" value="7">
+    <span id="ce" class="h1">7</span>
+</div>
+<div class="card w-25 m-auto overflow-hidden mt-2 mb-5">
+    <h3 class="bg-success text-white">PROMEDIO</h3>
+    <h1 id="promedio" class="text-white">10</h1>
+</div>
+</div>
+</body>
+<script src="app.js"></script>
+<script src="sweetalert2.all.min-2.js"></script>
+<script src="bootstrap.min-1.js"></script>
+</html>
